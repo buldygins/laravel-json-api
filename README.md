@@ -26,7 +26,7 @@ POST api/product    | Создать продукт
 GET api/product/{product}   | Получить продукт
 DELETE api/product/{product}     | Удалить продукт
 
-##Параметры
+## Параметры
 Маршрут GET api/product принимает параметры:
 ```http request
 page=page_number     ( Номер страницы [пагинация] )
